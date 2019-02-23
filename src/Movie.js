@@ -22,7 +22,7 @@ function Movie ({movieTitle, movieImg, genres, synopsis}) {
 }
 
 function MoviePoster ({movieImg}) {
-    return <img src={movieImg} className='Movie__Poster' />
+    return <img src={movieImg} alt="hello" className='Movie__Poster' />
 }
 
 function MovieGenre ({genre}) {
